@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.App-settings {
+  flex: 0 0 25%;
+  padding: 0.5em 1.5em;
+  background: #fff;
+}
+
+.App-content {
+  flex: 0 0 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f3f3;
+
+}
+
+.rc-color-picker-panel-params {
+  display: none;
+}
